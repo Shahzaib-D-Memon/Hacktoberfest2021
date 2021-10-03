@@ -10,16 +10,9 @@
 </head>
 
 <body>
-
-
-
-
-
-
-    
 	<form action="" method="post">
         <label>
-            <input type="text" class="input" name="name" placeholder="ENTER YOUR NAME">
+            <input type="text" class="input" name="name" placeholder="ENTER YOUR FULl NAME">
             <div class="line-box">
                 <div class="line"></div>
             </div>
@@ -46,12 +39,12 @@
 	
 		if(isset($_POST['submit'])){
      
-			$fullname = $_POST['name'];
-			$rollNumber = $_POST['rollNumber'];
+			$fname = $_POST['name'];
+			$rNumber = $_POST['rollNumber'];
 			$section= $_POST['section'];
 			
 			
-			$insert = mysqli_query($db,"INSERT INTO student_information (std_name, std_roll_number ,std_section) VALUES ('$fullname','$rollNumber','$section')");
+			$insert = mysqli_query($db,"INSERT INTO std_info (std_name, std_roll_number ,std_section) VALUES ('$fname','$rNumber','$section')");
 
 			if(!$insert){
 				echo mysqli_error();
@@ -62,7 +55,7 @@
 	   mysqli_close($db); // Close connection
     ?>
 
-    <script src="js/Task_1.js"></script>
+    <script src="Task_1.js"></script>
 </body>
 
 </html>
