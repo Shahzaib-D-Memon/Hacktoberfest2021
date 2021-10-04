@@ -1,5 +1,5 @@
 <?php  
-    $db = mysqli_connect("localhost","root","","weblabz");
+    $db = mysqli_connect("localhost","root","","DatabaseName");
 
     if(!$db)
     {
