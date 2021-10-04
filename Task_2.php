@@ -15,7 +15,7 @@
         body {
             margin-top: 80px;
             background: silver;
-            color: black;
+            color: red;
         }
 
         card card-primary mb-2 {
