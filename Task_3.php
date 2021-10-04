@@ -13,13 +13,13 @@
 	<body>
 		<style>
 			body{
-				margin-top:70px;
-				background:gray;
-				color:orange;
+				margin-top:80px;
+				background:silver;
+				color:yellow;
 			}
 			
 			card card-primary mb-2{
-				background-color: green;
+				background-color: white;
 			}
 		</style>
 		
