@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Add Records in Database</title>
+    <title>Task-1(Add Records in Database)</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="style.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -42,9 +42,7 @@
 			$fname = $_POST['name'];
 			$rNumber = $_POST['rollNumber'];
 			$section= $_POST['section'];
-			
-			
-			$insert = mysqli_query($db,"INSERT INTO std_info (std_name, std_roll_number ,std_section) VALUES ('$fname','$rNumber','$section')");
+$insert = mysqli_query($db,"INSERT INTO std_info (std_name, std_roll_number ,std_section) VALUES ('$fname','$rNumber','$section')");
 
 			if(!$insert){
 				echo mysqli_error();
