@@ -13,8 +13,8 @@
 <body>
     <style>
         body {
-            margin-top: 70px;
-            background: gray;
+            margin-top: 80px;
+            background: silver;
             color: black;
         }
 
