@@ -41,7 +41,7 @@
 						<tr>
 							<th>Sr.No</th>
 							<th>Name</th>
-							<th>Roll Number</th>
+							<th>Roll No</th>
 							<th>Section</th>
 						</tr> 
 						
